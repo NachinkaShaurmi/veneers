@@ -1,0 +1,75 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background: #bbb;
+	text-align: center;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+a {
+	color: #000;
+	text-decoration: none;
+
+}
+
+header, nav, article, main {
+	max-width: 1280px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.logo {
+	width: 40%;
+}
+
+.head {
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+h1 {
+	padding: 20px 0;
+}
+
+.old {
+	text-decoration: line-through;
+}
+
+.header {
+	text-align: center;
+	font-weight: 900;
+	margin-top: 59px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	margin-top: 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.install {
+	width: 40%;
+
+}
+.problem {
+	width: 60%;
+	margin: 20px auto;
+}
