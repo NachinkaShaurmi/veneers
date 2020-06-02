@@ -32,6 +32,7 @@ header, nav, article, main {
 
 .logo {
 	width: 40%;
+	margin-bottom: 15px;
 }
 
 .head {
@@ -56,13 +57,14 @@ h1 {
 	font-weight: 900;
 	margin-top: 59px;
 }
-.btn {
+.btn, .button-end {
 	font-family: 'Montserrat', sans-serif;
 	background: #ffd429;
 	color: #000;
 	margin-top: 20px;
 	padding: 10px;
 	text-decoration: none;
+	border-radius: 10px;
 }
 
 .install {
@@ -73,3 +75,89 @@ h1 {
 	width: 60%;
 	margin: 20px auto;
 }
+
+.data {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	display: flex;
+	text-align: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.field {
+	width: 340px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	height: 54px;
+	padding-left: 25px;
+	margin-bottom: 16px;
+	margin: 10px auto;
+	border-radius: 50px;
+}
+
+.order_form {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.price_item {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+
+.new {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
